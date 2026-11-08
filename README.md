@@ -35,13 +35,13 @@ Follow these steps to run the project locally.
 1. Clone the repository:
 
    ```bash
-   git clone <https://github.com/opeyemi-code/url-shortner-api>
+   git clone https://github.com/opeyemi-code/url-shortner-api
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd <project-folder>
+   cd url-shortner-api
    ```
 
 3. Install dependencies:
