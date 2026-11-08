@@ -2,6 +2,11 @@
 
 A responsive URL shortening application built with React and Tailwind CSS. It allows users to convert long URLs into shorter, shareable links using the [is.gd API](https://is.gd/).
 
+## Preview
+
+![URL Shortener application preview](./public/screenshots/url-shortener-preview.png.png)
+![URL Shortener application preview](./public/screenshots/url-shortener-preview-2.png.png)
+
 ## Features
 
 - **URL Shortening:** Convert long URLs into short links using the is.gd API.
