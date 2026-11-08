@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+custom-container {
+  max-width: 1440px;
+}
+
+hero-container {
+  max-width: 1500px;
+  /* border: 1px solid; */
+}
+
+.hero-img {
+  /* width: 120%; */
+  /* object-fit: cover; */
+  /* object-position: 80% -100%; */
+}
+
+.form-section {
+  background-image: url("./images/bg-shorten-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+}
+
+.call-to-action {
+  background-image: url("./images/bg-boost-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+
+@media (min-width: 640px) {
+  .form-section {
+    background-image: url("./images/bg-shorten-desktop.svg");
+  }
+
+  .call-to-action {
+    background-image: url("./images/bg-boost-desktop.svg");
+  }
+}
